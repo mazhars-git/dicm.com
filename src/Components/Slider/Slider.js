@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-// import "./styles.css";
+import '../Css/Slider.css';
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
@@ -55,9 +55,6 @@ const Slider = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                 <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
                 </SwiperSlide>
             </Swiper>
             </>
