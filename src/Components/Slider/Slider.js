@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import bannar_1 from "../../images/bannar.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -33,7 +34,7 @@ const Slider = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                <img src={bannar_1} />
                 </SwiperSlide>
                 <SwiperSlide>
                 <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
