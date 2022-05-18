@@ -1,0 +1,8 @@
+.footer-bottom{
+    background-color: rgb(27, 97, 124);
+}
+.footer-bottom p{
+    color: aliceblue;
+    text-align: center;
+    font-weight: 700;
+}
