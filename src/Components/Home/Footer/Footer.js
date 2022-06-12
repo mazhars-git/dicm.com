@@ -1,6 +1,8 @@
 import React from 'react';
 import "../../Css/Footer.css";
 import logo from "../../../images/Logo.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { twitter, facebook, linkedin, faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
@@ -13,9 +15,9 @@ const Footer = () => {
                         <img width={100} src={logo} alt="logo"/>
 
                         <ul>
-                            <li>
-                                
-                            </li>
+                            <li><a href="www.facebook.com"><FontAwesomeIcon icon={faCoffee} /></a></li>
+                            <li><a href="www.facebook.com"><FontAwesomeIcon icon={faCoffee} /></a></li>
+                            <li><a href="www.facebook.com"><FontAwesomeIcon icon={faCoffee} /></a></li>
                         </ul>
                     </div>
                     <div className='col-md-6'>
