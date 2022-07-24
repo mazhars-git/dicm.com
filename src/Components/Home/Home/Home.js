@@ -9,9 +9,6 @@ const Home = () => {
             <MainMenu />
             <Slider />
             
-            <button className="btn-primary">
-                Save changes
-            </button>
             <Footer />
         </div>
     );
