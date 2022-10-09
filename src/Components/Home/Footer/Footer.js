@@ -2,8 +2,8 @@ import React from 'react';
 import "../../Css/Footer.css";
 import logo from "../../../images/Logo.jpg";
 import Grid from '@material-ui/core/Grid';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { twitter, faFacebook, linkedin, faCoffee, faCake, faMailBulk, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+// import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+
 
 const Footer = () => {
     return (
@@ -17,11 +17,15 @@ const Footer = () => {
                     <img width={100} src={logo} alt="logo"/>
 
                     <ul>
-                        <li><a href="www.facebook.com"><FontAwesomeIcon icon={faCake} /></a></li>
-                        <li><a href="www.facebook.com"><FontAwesomeIcon icon={faMailBulk} /></a></li>
+                        <li>
+                            <a href="www.facebook.com">
+                            {/* <AccessAlarm color="secondary" /> */}
+                            </a>
+                        </li>
+                        {/* <li><a href="www.facebook.com"><ThreeDRotation /></a></li> */}
                     </ul>
                 </Grid>
-                
+
                 <Grid item xs={12} sm={6}>
                     <ul>
                         <li><a href='#'>About</a></li>
