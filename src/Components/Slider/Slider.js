@@ -1,7 +1,12 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import bannar_1 from "../../images/bannar.jpg";
+import banar from "../../images/banar-1.jpeg";
+import banar00 from "../../images/banar-2.jpeg";
+import banar01 from "../../images/banar-3.jpeg";
+import banar02 from "../../images/banar-4.jpeg";
+import banar03 from "../../images/banar-5.jpeg";
+import banar04 from "../../images/banar-6.jpeg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -34,28 +39,22 @@ const Slider = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                <img src={bannar_1} />
+                <img src={banar} />
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                <img src={banar00}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                <img src={banar01}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                <img src={banar02}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                <img src={banar03}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                <img src={banar04}/>
                 </SwiperSlide>
             </Swiper>
             </>
